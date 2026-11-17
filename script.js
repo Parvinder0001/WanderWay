@@ -34,3 +34,16 @@ bookingForm.addEventListener("submit", function(event) {
     }
 
 });
+const themeToggle = document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", function() {
+
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeToggle.innerText = "Light Mode";
+    } else {
+        themeToggle.innerText = "Dark Mode";
+    }
+
+});

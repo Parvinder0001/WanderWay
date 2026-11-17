@@ -248,3 +248,22 @@ footer {
         padding: 40px 5%;
     }
 }
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .section {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .card,
+.dark-mode .package-card {
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode .section h2 {
+    color: #ffc857;
+}
