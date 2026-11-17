@@ -14,4 +14,4 @@ A simple travel agency website built using HTML, CSS and JavaScript.
 - Travel packages
 - Booking form
 
-Project status: Destination search added.
+Project status: Destination search and dark mode added.

@@ -257,3 +257,23 @@ footer {
     border-radius: 25px;
     font-size: 16px;
 }
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .section {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .card,
+.dark-mode .package-card {
+    background-color: #444;
+    color: white;
+}
+
+.dark-mode .section h2 {
+    color: #ffc857;
+}
