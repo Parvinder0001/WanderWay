@@ -34,3 +34,25 @@ bookingForm.addEventListener("submit", function(event) {
     }
 
 });
+const searchInput = document.getElementById("searchInput");
+
+const destinationCards = document.querySelectorAll(".card");
+
+searchInput.addEventListener("input", function() {
+
+    const searchValue = searchInput.value.toLowerCase();
+
+    destinationCards.forEach(function(card) {
+
+        const destinationName =
+            card.querySelector("h3").innerText.toLowerCase();
+
+        if (destinationName.includes(searchValue)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+
+    });
+
+});
