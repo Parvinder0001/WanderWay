@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderWay - Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">WanderWay</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Explore The World With Us</h1>
+            <p>Discover beautiful destinations and make
+               unforgettable memories.</p>
+            <a href="#destinations" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="section" id="destinations">
+        <h2>Popular Destinations</h2>
+        <p class="subtitle">Choose your next travel destination</p>
+
+        <div class="card-container">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600" alt="Goa beach">
+                <h3>Goa</h3>
+                <p>Enjoy beautiful beaches and sunsets.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=600" alt="Manali mountains">
+                <h3>Manali</h3>
+                <p>Experience mountains and snowfall.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600" alt="Taj Mahal">
+                <h3>Agra</h3>
+                <p>Explore India's beautiful historical places.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="section packages" id="packages">
+        <h2>Our Travel Packages</h2>
+        <p class="subtitle">Affordable packages for everyone</p>
+
+        <div class="card-container">
+
+            <div class="package-card">
+                <h3>Goa Package</h3>
+                <h2>₹5,999</h2>
+                <p>3 Days / 2 Nights</p>
+                <p>Hotel + Food + Sightseeing</p>
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+
+            <div class="package-card">
+                <h3>Manali Package</h3>
+                <h2>₹8,999</h2>
+                <p>4 Days / 3 Nights</p>
+                <p>Hotel + Food + Sightseeing</p>
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+
+            <div class="package-card">
+                <h3>Agra Package</h3>
+                <h2>₹3,999</h2>
+                <p>2 Days / 1 Night</p>
+                <p>Hotel + Food + Sightseeing</p>
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <h2>About WanderWay</h2>
+        <p>
+            WanderWay is a travel agency that helps people
+            explore beautiful destinations at affordable prices.
+            Our goal is to make every journey comfortable,
+            enjoyable and memorable.
+        </p>
+    </section>
+
+    <!-- Contact and Booking Section -->
+    <section class="section contact" id="contact">
+        <h2>Book Your Trip</h2>
+        <p class="subtitle">Fill out the form to plan your journey</p>
+
+        <form id="bookingForm">
+
+            <input type="text" id="name"
+                   placeholder="Enter your name" required>
+
+            <input type="email" id="email"
+                   placeholder="Enter your email" required>
+
+            <select id="destination" required>
+                <option value="">Select Destination</option>
+                <option value="Goa">Goa</option>
+                <option value="Manali">Manali</option>
+                <option value="Agra">Agra</option>
+            </select>
+
+            <input type="date" id="date" required>
+
+            <button type="submit" class="btn">
+                Submit Booking
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 WanderWay Travel Agency | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
